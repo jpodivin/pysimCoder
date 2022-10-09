@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 
-from glob import glob
-import os
-
 if __name__ == '__main__':
-    from numpy.distutils.core import setup,Extension
+    from numpy.distutils.core import setup
  
     setup(name = 'myEnv',
           version = '0.1',

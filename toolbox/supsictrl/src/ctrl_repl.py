@@ -13,7 +13,6 @@ Design and plot commands
 import numpy as np
 import scipy as sp
 import scipy.linalg as la
-from slycot import sb02od
 import control as ct
 
 def d2c(sys,method='zoh'):

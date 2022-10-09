@@ -1,11 +1,9 @@
-from PyQt5.QtWidgets import QGraphicsPathItem, QGraphicsTextItem, QMessageBox
-from PyQt5.QtGui import QPainterPath, QPen, QImage, QTransform
-from PyQt5.QtCore import Qt, QPointF
+from PyQt5.QtCore import QPointF
 
 from supsisim.block import Block
 from supsisim.connection import Connection
-from supsisim.port import Port, InPort, OutPort
-from supsisim.const import GRID, PW, LW, BWmin, BHmin, PD, respath
+from supsisim.port import InPort, OutPort
+from supsisim.const import GRID, BWmin
 
 class subsBlock(Block):
     def __init__(self, *args):

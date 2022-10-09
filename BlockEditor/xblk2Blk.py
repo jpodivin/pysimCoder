@@ -2,8 +2,8 @@
 
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from PyQt5.QtWidgets import QMainWindow, QApplication, QGridLayout, QWidget, QPushButton, QSpinBox, QCheckBox, QTextEdit, QAction, QMenuBar, QLabel, QFileDialog, QLineEdit, QMessageBox, QComboBox
-from PyQt5 import QtCore, uic
+from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QMenuBar, QLabel, QFileDialog, QLineEdit, QMessageBox, QComboBox
+from PyQt5 import uic
 
 import os
 import sys

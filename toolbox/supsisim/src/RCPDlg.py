@@ -1,10 +1,7 @@
-#import sys
-
 from PyQt5.QtWidgets import QDialog, QGridLayout, QLabel, QLineEdit, QPushButton, \
-    QListWidget, QMessageBox
-from PyQt5.QtCore import Qt
+    QMessageBox
 
-from supsisim.const import pyrun, respath
+from supsisim.const import respath
 
 class BlkDlg(QDialog):
     def __init__(self, line, helpTxt):

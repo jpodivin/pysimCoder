@@ -1,6 +1,5 @@
-from PyQt5.QtWidgets import QMenu, QGraphicsItem, QApplication, QGraphicsView
-from PyQt5.QtGui import QTransform
-from PyQt5.QtCore import Qt, QEvent, QObject, QPointF, QRectF, QSizeF, QMimeData
+from PyQt5.QtWidgets import QMenu, QApplication, QGraphicsView
+from PyQt5.QtCore import Qt, QObject, QPointF, QRectF, QSizeF
 
 from supsisim.port import Port, InPort, OutPort
 from supsisim.connection import Connection
@@ -10,7 +9,6 @@ from supsisim.dialg import BlockName_Dialog
 import supsisim.RCPDlg as pDlg
 from supsisim.const import GRID, DB, DP
 from supsisim.node import Node
-import numpy as np
 import json
 
 # States

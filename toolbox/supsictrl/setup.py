@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 
-from glob import glob
-import os
-
 if __name__ == '__main__':
-    from numpy.distutils.core import setup,Extension
+    from numpy.distutils.core import setup
  
     setup(name = 'supsictrl',
           version = '0.3',

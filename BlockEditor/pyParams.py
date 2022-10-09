@@ -3,15 +3,13 @@
 from PyQt5 import QtGui, QtCore, uic
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QFileDialog, QMessageBox, \
-QLabel, QLineEdit, QPushButton, QTableWidget, QTableWidgetItem
+from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QFileDialog, QTableWidgetItem
 
 import supsictrl.unixsocket as sk
 import os
 import sys
 import json
 
-import socket
 import struct
 import time
 

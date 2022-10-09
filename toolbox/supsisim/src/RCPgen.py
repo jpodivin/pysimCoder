@@ -15,12 +15,9 @@ The following commands are provided:
   sch2blks       - Generate block list fron schematic
   
 """
-from scipy import mat, size, array, zeros
-from numpy import  nonzero, ones
+from scipy import mat, size, zeros
 from os import environ
 import copy
-import sys
-from supsisim.RCPblk import RCPblk
 from supsisim.SHVgen import genSHVtree, genSHVcode, genSHVheader, genSHVend
 
 def genCode(model, Tsamp, blocks, rkstep = 10):

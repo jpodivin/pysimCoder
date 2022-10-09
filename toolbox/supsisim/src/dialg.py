@@ -1,6 +1,5 @@
 from PyQt5.QtWidgets import QDialog, QGridLayout, QSpinBox, QLabel, QPushButton, QCheckBox, \
-    QComboBox, QLineEdit, QFileDialog, QVBoxLayout, QTextEdit, QDialogButtonBox, QApplication
-from PyQt5.QtGui import QFont
+    QComboBox, QLineEdit, QFileDialog
 from PyQt5.QtCore import Qt
 
 from supsisim.const import path

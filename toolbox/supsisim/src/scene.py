@@ -1,13 +1,13 @@
 from PyQt5.QtWidgets import QGraphicsItem, QGraphicsScene, QGraphicsView, QMessageBox
 from PyQt5.QtGui import QPainter
-from PyQt5.QtCore import QRectF, QPointF, QSizeF, QEvent
+from PyQt5.QtCore import QRectF, QPointF, QSizeF
 
 from supsisim.block import Block
 from supsisim.subsblock import subsBlock
 from supsisim.port import Port, InPort, OutPort
 from supsisim.connection import Connection
 from supsisim.dialg import RTgenDlg, SHVDlg
-from supsisim.const import VERSION, pyrun, TEMP, respath, BWmin
+from supsisim.const import VERSION, pyrun, TEMP, respath
 from lxml import etree
 import os
 import subprocess

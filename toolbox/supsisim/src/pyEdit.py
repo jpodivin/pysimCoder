@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout,  QAction, \
     QMessageBox, QFileDialog, QDialog, QApplication, QComboBox, QLabel
 from PyQt5.QtGui import QPainter, QIcon
 from PyQt5.QtPrintSupport import QPrinter, QPrintDialog
-from PyQt5.QtCore import Qt, QPointF, QFileInfo, QMimeData, QSettings, QVariant
+from PyQt5.QtCore import Qt, QPointF, QFileInfo, QSettings, QVariant
 
 from supsisim.block import Block
 from supsisim.subsblock import subsBlock
